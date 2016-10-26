@@ -1,0 +1,27 @@
+{
+  "name": "Timbre",
+  "version": "0.1.0",
+  "description": "Timbre is a Raspberry Pi based video doorbell",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alberto Roura",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roura356a/timbre.git"
+  },
+  "keywords": [
+    "doorbell",
+    "timbre",
+    "raspberry",
+    "pi",
+    "rpi",
+    "jquery"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.1"
+  }
+}
