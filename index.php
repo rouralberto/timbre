@@ -17,7 +17,8 @@ $noCache = '?timestamp=' . date('U');
 
     <link rel="stylesheet" href="styles.css<?php echo $noCache; ?>">
 
-    <script src="js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script src="js/timbre.js<?php echo $noCache; ?>"></script>
 </head>
 <body>
