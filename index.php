@@ -14,30 +14,22 @@
 
     <link rel="stylesheet" href="styles.css<?php echo $noCache; ?>">
 
-    <link rel="stylesheet" href="node_modules/tracking/examples/assets/demo.css">
-    <style>
-        video, canvas {
-            margin-left: 230px;
-            margin-top: 120px;
-            position: absolute;
-        }
-    </style>
-
     <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="node_modules/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
     <script type="text/javascript" src="node_modules/tracking/build/tracking-min.js"></script>
     <script type="text/javascript" src="node_modules/tracking/build/data/face-min.js"></script>
-    <script type="text/javascript" src="node_modules/tracking/examples/assets/stats.min.js"></script>
-    <script type="text/javascript" src="js/timbre.js<?php echo $noCache; ?>"></script>
+    <script type="text/javascript" src="assets/js/timbre.js<?php echo $noCache; ?>"></script>
 </head>
 <body>
 
-<div class="demo-frame">
-    <div class="demo-container">
-        <video id="video" width="320" height="240" preload autoplay loop muted></video>
-        <canvas id="canvas" width="320" height="240"></canvas>
-    </div>
-</div>
+<header id="header">
+    Header goes here
+</header>
+
+<main id="main">
+    <video id="video" width="320" height="240" preload autoplay loop muted></video>
+    <canvas id="canvas" width="320" height="240"></canvas>
+</main>
 
 </body>
 </html>

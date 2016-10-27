@@ -29,12 +29,8 @@ var timbre = {
             context.clearRect(0, 0, canvas.width, canvas.height);
 
             event.data.forEach(function (rect) {
-                context.strokeStyle = '#a64ceb';
+                context.strokeStyle = 'red';
                 context.strokeRect(rect.x, rect.y, rect.width, rect.height);
-                context.font = '11px Helvetica';
-                context.fillStyle = "#fff";
-                context.fillText('x: ' + rect.x + 'px', rect.x + rect.width + 5, rect.y + 11);
-                context.fillText('y: ' + rect.y + 'px', rect.x + rect.width + 5, rect.y + 22);
             });
         });
     }
